@@ -177,9 +177,11 @@ class _AssetTreeViewScreenState extends State<AssetTreeViewScreen> {
                         color: TractianColors.gray4,
                         child: ListView.separated(
                           itemCount: state.assetsTreeViews.length,
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 10,
-                            vertical: 10,
+                          padding: const EdgeInsets.only(
+                            left: 10,
+                            right: 10,
+                            top: 10,
+                            bottom: 50,
                           ),
                           separatorBuilder: (context, index) => const SizedBox(
                             height: 20,
