@@ -78,6 +78,7 @@ class _AssetTreeViewScreenState extends State<AssetTreeViewScreen> {
                 fontWeight: FontWeight.w400,
               ),
         ),
+        centerTitle: true,
         backgroundColor: TractianColors.appbarDeepBlue,
       ),
       body: BlocConsumer<AssetsTreeViewBloc, AssetsTreeViewState>(

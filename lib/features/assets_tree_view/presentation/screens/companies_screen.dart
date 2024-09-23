@@ -32,6 +32,7 @@ class _CompaniesScreenState extends State<CompaniesScreen> {
     return Scaffold(
       appBar: AppBar(
         title: SvgPicture.asset(AssetsPaths.tractianLogo),
+        centerTitle: true,
         backgroundColor: TractianColors.appbarDeepBlue,
       ),
       body: Container(
