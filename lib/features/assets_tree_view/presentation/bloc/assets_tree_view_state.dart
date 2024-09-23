@@ -11,14 +11,17 @@ final class AssetsTreeViewInitial extends AssetsTreeViewState {}
 
 final class AssetsTreeViewSuccess extends AssetsTreeViewState {
   final List<CompaniesModel> companies;
+  final List<AssetTreeViewModel> assetsTreeViews;
 
   const AssetsTreeViewSuccess({
     required this.companies,
+    required this.assetsTreeViews,
   });
 
   @override
   List<Object> get props => [
         companies,
+        assetsTreeViews,
       ];
 }
 

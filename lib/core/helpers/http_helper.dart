@@ -96,7 +96,6 @@ class HttpHelperImpl implements HttpHelper {
 
   Future _handlerNoConnection({required Function request}) async {
     if (!await isConnected) {
-      // _showErrorConnection();
       throw const ConnectionException();
     } else {
       return request();

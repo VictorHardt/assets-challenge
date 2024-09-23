@@ -14,6 +14,7 @@ dependencies:
   flutter_svg: ^2.0.4
   flutter_bloc: ^8.1.2
   equatable: ^2.0.5
+  collection: ^1.18.0
 
 dev_dependencies:
   flutter_test:
@@ -25,3 +26,4 @@ flutter:
   assets:
     - lib/assets/
     - lib/assets/svgs/
+    - lib/assets/pngs/
